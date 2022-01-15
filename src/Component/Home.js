@@ -1,5 +1,10 @@
 import React from 'react';
 
-export default function Contact (){
-  return <div>Home</div>
+import Navbar from './Navbar'
+
+export default function Home (){
+  return <div>
+    <Navbar/>
+    Home
+    </div>
 }
